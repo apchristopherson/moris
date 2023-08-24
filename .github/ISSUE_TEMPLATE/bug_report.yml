@@ -25,7 +25,7 @@ body:
       description: The included input file should use the minimimum number of elements that still recreates this bug. If it occurs many iterations into an optimization problem, you need to include all necessary restart files to continue from that iteration.
       options:
         - label: I have included a minimal example for recreating this bug
-        required: true
+          required: true
   - type: checkboxes
     id: valgrind
     attributes:
