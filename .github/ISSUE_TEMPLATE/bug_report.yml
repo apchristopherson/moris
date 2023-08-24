@@ -61,5 +61,6 @@ body:
         - label: Parallel
   - type: textarea
     id: dependence
+    attributes:
       label: Dependence
       description: Does this bug only occur for specific mesh refinement levels, processor numbers, etc.? If so, include that information here.
